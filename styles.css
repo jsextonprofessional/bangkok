@@ -1,0 +1,36 @@
+nav {
+    border: 4px red solid;
+    min-height: 80px;
+}
+
+.yontainer {
+    border: 2px black dotted;
+}
+
+.home {
+    border: 4px orange solid;
+    background-color: rgb(255, 209, 123);
+    min-height: 700px;
+}
+
+.menu {
+    border: 4px yellow solid;
+    background-color: lightyellow;
+    min-height: 700px;
+}
+
+.order {
+    border: 4px green solid;
+    background-color: lightgreen;
+    min-height: 700px;
+}
+
+.about {
+    border:  4px blue solid;
+    background-color: lightblue;
+}
+
+.copyright {
+    border: 4px purple solid;
+    background-color: rgb(128, 63, 128);
+}
