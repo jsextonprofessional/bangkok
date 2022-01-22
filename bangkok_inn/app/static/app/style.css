@@ -1,6 +1,10 @@
+* {
+    /* background-color: #FF6A6A; */
+}
+
 body {
-    background: white url("./images/mb-bg.jpeg") no-repeat;
-    background-attachment: fixed;
+    background-color: #FF6A6A !important;
+    /* background-color: #FFC1CC !important; */
 }
 
 .navbrand-yeet:hover {
@@ -74,7 +78,7 @@ body {
 }
 
 #yeet-bottom-index-card-link:hover {
-    color: #f9bebd;
+    color: #54cccc;
     font-size: xxx-large;
 }
 
