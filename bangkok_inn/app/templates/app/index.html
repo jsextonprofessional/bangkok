@@ -16,7 +16,6 @@
     <!-- top navbar -->
     <nav class="navbar navbar-light bg-transparent fixed-top mb-5 border border-4 border-dark">
         <div class="container-fluid">
-            <!-- these href's need real routes -->
             <a href="{% url 'index' %}" class="navbar-brand font-monospace mx-2 navbrand-yeet">Bangkok Inn</a>
             <div>
                 <a href="{% url 'menu' %}" class="font-monospace mx-2 text-decoration-none menu-items-yeet" id="menu-item-1">MENU</a>
@@ -29,8 +28,8 @@
     <!-- primary container -->
     <div class="align-items-center border border-danger container-fluid flex d-flex justify-content-center min-vh-100 w-75 yeet-primary-container">
         <!-- bottom index cards -->
-        <div class="align-items-center bg-warning border border-5 border-dark d-inline-flex mx-auto position-relative container-fluid yeet-index-cards">
-            <h1 class="align-middle mx-auto font-monospace justify-self-center m-5 p-5"><a id="yeet-bottom-index-card-link" href="{% url 'menu' %}" class="text-decoration-none">Authentic Thai Cuisine</a></h1>
+        <div class="align-items-center bg-warning border border-5 border-dark container-fluid d-flex flex-row justify-content-between yeet-index-cards">
+            <h1 class="mx-auto font-monospace p-5 text-center"><a id="yeet-bottom-index-card-link" href="{% url 'menu' %}" class="text-decoration-none">Authentic <br> Thai <br> Cuisine</a></h1>
         </div>
     </div>
     
